@@ -1,50 +1,23 @@
-# Welcome to your Expo app 👋
+# Expo文档学习
+[Expo](https://docs.expo.dev/tutorial/overview/)
+## 技术栈
+- **React Native**: 提供跨平台支持，确保 iOS 和 Android 的原生性能和一致体验。
+- **Expo**: 通过 Expo CLI 和 SDK 简化开发，提供照片选择、图像处理等开箱即用的 API，采用托管工作流加速迭代。
+- **TypeScript**: 增强代码类型安全，提升开发体验。
+- **NativeWind**: 用于快速构建响应式 UI。
+- **Expo Router**: 提供简单高效的导航解决方案。
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 项目特点
+- 在照片上自由添加和调整表情符号贴纸。
+- 跨平台支持，单一份代码运行于 iOS 和 Android。
+- 借助 Expo 的 OTA 更新，快速部署新功能。
 
-## Get started
+## 快速开始
+1. 安装 Expo CLI: `npm install -g expo-cli`
+2. 克隆项目: `git clone [https://github.com/jellydn/StickerSmash.git](https://github.com/jet-isnt-haha/StickerSmash-demo.git)`
+3. 安装依赖: `npm install`
+4. 启动项目: `expo start`
+5. 使用 Expo Go 扫描二维码或在模拟器中运行。
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 为什么选择 React Native 和 Expo？
+StickerSmash 利用 React Native 的强大性能和 Expo 的便捷工具，快速构建了一个功能丰富的应用原型。Expo 的托管工作流让开发者无需配置原生环境即可专注于功能开发，而 React Native 确保了跨平台一致性和扩展性。
