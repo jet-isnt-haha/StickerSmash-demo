@@ -23,7 +23,7 @@ const Button = ({ label, theme, onPress }: Props) => {
     >
       <Pressable
         style={[styles.button, flag && { backgroundColor: "#fff" }]}
-        onPress={flag ? onPress : () => alert("You pressed a btn")}
+        onPress={onPress}
       >
         {flag && (
           <FontAwesome
