@@ -9,14 +9,18 @@
       "distribution": "internal",
       "env": {
         "APP_VARIANT": "development"
-      }
+      },
+      "android": { "image": "latest" }
     },
     "preview": {
       "distribution": "internal",
       "env": { "APP_VARIANT": "preview" }
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "android": {
+        "buildType": "apk"
+      }
     }
   },
   "submit": {
